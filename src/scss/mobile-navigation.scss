@@ -1,0 +1,125 @@
+.navigation__list {
+  display: none;
+}
+
+.mobile-navigation-toggle {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  color: #000;
+  cursor: pointer;
+
+  .mobile-navigation-toggle__icon {
+    font-size: 24px;
+  }
+}
+
+.mobile-navigation {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: -100%;
+  background: #696969;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  white-space: nowrap;
+
+  .mobile-navigation__button-close {
+    position: absolute;
+    color: #fff;
+    cursor: pointer;
+    top: 12px;
+    left: 23px;
+    font-size: 30px;
+
+    &:hover {
+      color: #dc363d;
+    }
+  }
+}
+
+.mobile-navigation__language {
+  margin: 0 0 18px 20px;
+}
+
+.mobile-navigation__language-current {
+  display: flex;
+
+  .mobile-navigation__language-current-arrow {
+    margin: 2px 0 0 5px;
+  }
+}
+
+.mobile-navigation__language-current-arrow.fa-angle-down {
+  color: #fff;
+}
+
+.mobile-navigation__language-choice {
+  display: none;
+  margin-left: 8px;
+
+  .mobile-navigation__language-list {
+    list-style: none;
+  }
+}
+
+.mobile-navigation__language-list-item {
+  display: flex;
+  margin-top: 10px;
+}
+
+.mobile-navigation__language-current-item-img,
+.mobile-navigation__language-list-item-img {
+  width: 30px;
+  height: 100%;
+}
+
+.mobile-navigation__search {
+  padding: 0 20px 15px 20px;
+
+  .mobile-navigation__search-box {
+    display: flex;
+  }
+}
+
+.mobile-navigation__search-input {
+  width: 250px;
+  height: 48px;
+  padding: 1px 10px 1px 12px;
+  border: 0;
+}
+
+.mobile-navigation__search-loupe {
+  background: #fff;
+  height: 50px;
+  width: 54px;
+  cursor: pointer;
+
+  .mobile-navigation__search-loupe-icon {
+    padding: 17px 17px 17px 18px;
+    color: #000;
+    font-size: 15px;
+  }
+}
+
+.mobile-navigation__list,
+.mobile-navigation__second-level-list {
+  list-style: none;
+}
+
+.mobile-navigation__list-item {
+  border-top: 1px solid #dc363d;
+  padding: 12px 10px 12px 22px;
+  color: #fff;
+  display: block;
+
+  &:hover {
+    color: #000;
+  }
+}
+
+.mobile-navigation__second-level-list {
+  display: none;
+}

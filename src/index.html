@@ -16,9 +16,10 @@
         <div class="header-wrapper">
           <a class="header__logo" href="index.html"><img class="header__logo-img" src="img/header/logo.png"
               alt="logo-img" /></a>
+          <!--
           <div class="header__language">
             <div class="header__language-current">
-              <p class="header__language-list-item-text">PL</p><img class="header__language-list-item-img"
+              <p class="header__language-current-item-text">PL</p><img class="header__language-current-item-img"
                 src="img/header/language/pl.png" alt="language-img-PL">
               <i class="header__language-current-arrow fas fa-angle-down"></i>
             </div>
@@ -35,25 +36,80 @@
               </ul>
             </div>
           </div>
+          -->
+          <div class="header__search-show">
+            <i class="header__search-show-loupe-icon fas fa-search"></i>
+          </div>
           <div class="header__account">
             <i class="header__account-icon fas fa-user"></i>
           </div>
           <div class="header__shopping-basket">
-            <i class="header__shopping-basket-icon fas fa-shopping-cart"></i>
+            <i class="header__shopping-basket-icon fas fa-shopping-bag"></i>
             <div class="header__shopping-basket-quantity">
               <p class="header__shopping-basket-quantity-number">2</p>
             </div>
           </div>
         </div>
-        <div class="header__search">
+      </div>
+      <div class="header__search">
+        <div class="header__search-box">
           <input class="header__search-input" type="text" placeholder="Wpisz czego szukasz...">
-          <div class="header__search-loupe"><a href="#"><img class="header__search-loupe-img" src="img/header/loupe.png"
-                alt="loupe-img"></a>
-          </div>
+          <div class="header__search-loupe"><i class="header__search-loupe-icon fas fa-search"></i></div>
         </div>
       </div>
     </div>
   </header>
+
+  <nav class="navigation">
+    <div class="grid">
+      <div class="navigation__container grid__column">
+        <div class="navigation__menu navigation__menu--polish-version">
+          <ul class="navigation__list"></ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-navigation-toggle">
+    <i class="mobile-navigation-toggle__icon fa fa-bars"></i>
+  </div>
+
+  <nav class="mobile-navigation">
+    <div class="mobile-navigation__button-close">
+      <i class="mobile-navigation__button-close-icon fas fa-times"></i>
+    </div>
+    <div class="mobile-navigation__language">
+      <div class="mobile-navigation__language-current">
+        <img class="mobile-navigation__language-current-item-img" src="img/header/language/pl.png"
+          alt="language-img-PL">
+        <i class="mobile-navigation__language-current-arrow fas fa-angle-down"></i>
+      </div>
+      <div class="mobile-navigation__language-choice">
+        <ul class="mobile-navigation__language-list">
+          <li class="mobile-navigation__language-list-item">
+            <img class="mobile-navigation__language-list-item-img" src="img/header/language/en.png"
+              alt="language-img-EN">
+          </li>
+          <li class="mobile-navigation__language-list-item">
+            <img class="mobile-navigation__language-list-item-img" src="img/header/language/de.png"
+              alt="language-img-DE">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="mobile-navigation__search">
+      <div class="mobile-navigation__search-box">
+        <input class="mobile-navigation__search-input" type="text" placeholder="Wpisz czego szukasz...">
+        <div class="mobile-navigation__search-loupe"><i class="mobile-navigation__search-loupe-icon fas fa-search"></i>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-navigation__menu mobile-navigation__menu--polish-version">
+      <ul class="mobile-navigation__list">
+
+      </ul>
+    </div>
+  </nav>
 
 </body>
 
