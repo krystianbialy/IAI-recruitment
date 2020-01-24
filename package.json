@@ -36,6 +36,7 @@
     "@fortawesome/fontawesome-free": "^5.10.1",
     "filemanager-webpack-plugin": "^2.0.5",
     "jquery": "^3.4.1",
-    "magnific-popup": "^1.1.0"
+    "magnific-popup": "^1.1.0",
+    "semantic-ui-css": "^2.4.1"
   }
 }

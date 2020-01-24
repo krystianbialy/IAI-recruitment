@@ -1,0 +1,144 @@
+.product-description__container {
+  margin: 15px 0 0 0;
+}
+
+.product-description__content {
+  padding: 10px 10px 10px 10px;
+
+  .product-name,
+  .product-speciication {
+    font-size: 16px;
+  }
+
+  .product-producer {
+    margin-top: 5px;
+    font-size: 11px;
+
+    .product-producer__color {
+      color: #b62323;
+    }
+  }
+}
+
+.product-choice-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 10px 0 20px 0;
+}
+
+.product-specification-select__name {
+  margin: 10px 0 8px 0;
+  font-size: 14px;
+}
+
+.product-specification-select__choice {
+  width: 150px;
+  height: 30px;
+  border: 1px solid rgb(145, 145, 145);
+  display: flex;
+
+  .product-specification-select__choice-text {
+    padding: 4px 0 0 5px;
+    font-size: 15px;
+  }
+
+  .product-specification-select__choice-icon {
+    margin: 4px 5px 0 auto;
+  }
+}
+
+.product-specification-select__list {
+  display: none;
+
+  .product-specification-select__list-item {
+    font-size: 14px;
+    padding: 6px 0 0 7px;
+    width: 143px;
+    height: 26px;
+    border-right: 1px solid rgb(145, 145, 145);
+    border-left: 1px solid rgb(145, 145, 145);
+    border-bottom: 1px solid rgb(145, 145, 145);
+    background: rgb(209, 208, 208);
+  }
+}
+
+.price-quantity-box {
+  margin-top: 24px;
+}
+
+.product-price__price {
+  font-size: 15px;
+}
+
+.product-price__discount {
+  font-size: 26px;
+}
+
+.product-quantity {
+  display: flex;
+  border: 1px solid rgb(199, 198, 198);
+  width: 120px;
+  height: 50px;
+  margin: 10px 0;
+
+  .product-quantity__minus {
+    border: 0;
+    background: #fff;
+    font-size: 25px;
+    padding: 10px 16px 10px 12px;
+  }
+
+  .product-quantity__plus {
+    border: 0;
+    background: #fff;
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .product-quantity__number {
+    width: 50px;
+    font-size: 23px;
+    text-align: center;
+    border: 0;
+  }
+}
+
+.add-to-basket {
+  background-image: url('img/general/button-add-to-basket.png');
+  width: 175px;
+  height: 50px;
+  margin-top: 15px;
+
+  .add-to-basket__text {
+    font-size: 13px;
+    color: #fff;
+    padding: 15px 0 0 21px;
+  }
+}
+
+.buy-information {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+}
+
+.buy-information-img {
+  width: 20px;
+  height: 100%;
+}
+
+.buy-information-text-first-line {
+  font-size: 13px;
+}
+
+.buy-information-text-second-line {
+  font-size: 12px;
+}
+
+.buy-information__second-column {
+  padding-left: 20px;
+}
+
+.buy-information__return,
+.buy-information__warranty {
+  margin-top: 12px;
+}

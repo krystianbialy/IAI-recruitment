@@ -3,7 +3,9 @@
     "plugins": ["prettier"],
     "rules": {
         "prettier/prettier": "warn",
-        "func-names":"off"
+        "func-names":"off",
+        "default-case":"off",
+        "no-case-declarations":"off"
     },
     "parserOptions": {
         "ecmaVersion": 2015,

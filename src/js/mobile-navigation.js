@@ -1,28 +1,4 @@
-$('.mobile-navigation__menu--polish-version .mobile-navigation__list').append(
-  `
-<li class="mobile-navigation__list-item"><a href="#">MOJE KONTO</a></li>
-<li class="mobile-navigation__list-item">GOTOWE ZESTAWY DO GRY</li>
-  <ul class="mobile-navigation__second-level-list">
-    <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-    <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-    <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-  </ul>
-<li class="mobile-navigation__list-item">SPRZĘT</li>
-  <ul class="mobile-navigation__second-level-list">
-    <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-    <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-    <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-  </ul>
-<li class="mobile-navigation__list-item">ODZIEŻ</li>
-  <ul class="mobile-navigation__second-level-list">
-    <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-    <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-    <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-  </ul>
-<li class="mobile-navigation__list-item"><a href="#">KULKI</a></li>
-<li class="mobile-navigation__list-item"><a href="#">WYPRZEDAŻE</a></li>
-`
-);
+$('.mobile-navigation__menu--polish-version .mobile-navigation__list').append();
 
 $(document).ready(() => {
   const $mobileNavToggle = $('.mobile-navigation-toggle');
@@ -30,7 +6,7 @@ $(document).ready(() => {
   const $mobileNavBtnClose = $('.mobile-navigation__button-close');
   const $mobileNavLanguageCurrent = $('.mobile-navigation__language-current');
   const $mobileNavLanguageChoice = $('.mobile-navigation__language-choice');
-  const $mobileNavListItem = $('.mobile-navigation__list-item');
+  const $mobileNavListItemWrapper = $('.mobile-navigation__list-item-wrapper');
 
   $mobileNav.hide();
 
@@ -51,7 +27,7 @@ $(document).ready(() => {
     $mobileNavLanguageChoice.toggle('duration');
   });
 
-  $mobileNavListItem.click(function() {
+  $mobileNavListItemWrapper.click(function() {
     const $secondLevelList = $(this).next(
       '.mobile-navigation__second-level-list'
     );
