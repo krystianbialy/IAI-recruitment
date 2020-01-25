@@ -11,3 +11,4 @@ import './js/mobile-navigation.js';
 import './js/navigation.js';
 import './js/slider.js';
 import './js/product-description.js';
+import './js/FAQ.js';

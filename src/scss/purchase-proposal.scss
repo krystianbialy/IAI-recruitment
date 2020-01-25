@@ -1,0 +1,28 @@
+.purchase-proposal__content {
+  padding: 0 10px;
+  margin-top: 25px;
+
+  .section-title-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .product-box {
+    display: flex;
+    margin: 10px 0 0 7px;
+  }
+}
+
+.product-box__product-text {
+  padding: 15px 0 0 25px;
+
+  .product-box__product-name,
+  .product-box__product-name-second-line {
+    font-size: 14px;
+  }
+
+  .product-box__product-price {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 4px;
+  }
+}

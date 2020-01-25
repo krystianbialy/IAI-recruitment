@@ -10,13 +10,14 @@
 
 <body>
 
-  <header class="header grid">
-    <div class="header__container grid__column">
-      <div class="header__content">
-        <div class="header-wrapper">
-          <a class="header__logo" href="index.html"><img class="header__logo-img" src="img/header/logo.png"
-              alt="logo-img" /></a>
-          <!--
+  <div class="header-overlay">
+    <header class="header grid">
+      <div class="header__container grid__column">
+        <div class="header__content">
+          <div class="header-wrapper">
+            <a class="header__logo" href="index.html"><img class="header__logo-img" src="img/header/logo.png"
+                alt="logo-img" /></a>
+            <!--
           <div class="header__language">
             <div class="header__language-current">
               <p class="header__language-current-item-text">PL</p><img class="header__language-current-item-img"
@@ -37,28 +38,33 @@
             </div>
           </div>
           -->
-          <div class="header__search-show">
-            <i class="header__search-show-loupe-icon fas fa-search"></i>
-          </div>
-          <div class="header__account">
-            <i class="header__account-icon fas fa-user"></i>
-          </div>
-          <div class="header__shopping-basket">
-            <i class="header__shopping-basket-icon fas fa-shopping-bag"></i>
-            <div class="header__shopping-basket-quantity">
-              <p class="header__shopping-basket-quantity-number">2</p>
+            <div class="header__search-show">
+              <i class="header__search-show-loupe-icon fas fa-search"></i>
+            </div>
+            <div class="header__account">
+              <i class="header__account-icon fas fa-user"></i>
+            </div>
+            <div class="header__shopping-basket">
+              <i class="header__shopping-basket-icon fas fa-shopping-bag"></i>
+              <div class="header__shopping-basket-quantity">
+                <p class="header__shopping-basket-quantity-number">2</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="header__search">
-        <div class="header__search-box">
-          <input class="header__search-input" type="text" placeholder="Wpisz czego szukasz...">
-          <div class="header__search-loupe"><i class="header__search-loupe-icon fas fa-search"></i></div>
+        <div class="header__search">
+          <div class="header__search-box">
+            <input class="header__search-input" type="text" placeholder="Wpisz czego szukasz...">
+            <div class="header__search-loupe"><i class="header__search-loupe-icon fas fa-search"></i></div>
+          </div>
         </div>
       </div>
+    </header>
+
+    <div class="mobile-navigation-toggle">
+      <i class="mobile-navigation-toggle__icon fa fa-bars"></i>
     </div>
-  </header>
+  </div>
 
   <nav class="navigation">
     <div class="grid">
@@ -70,76 +76,76 @@
     </div>
   </nav>
 
-  <div class="mobile-navigation-toggle">
-    <i class="mobile-navigation-toggle__icon fa fa-bars"></i>
+  <div class="mobile-navigation-overlay">
+    <nav class="mobile-navigation">
+      <div class="mobile-navigation__button-close">
+        <i class="mobile-navigation__button-close-icon fas fa-times"></i>
+      </div>
+      <div class="mobile-navigation__language">
+        <div class="mobile-navigation__language-current">
+          <img class="mobile-navigation__language-current-item-img" src="img/general/language/pl.png"
+            alt="language-img-PL">
+          <i class="mobile-navigation__language-current-arrow fas fa-angle-down"></i>
+        </div>
+        <div class="mobile-navigation__language-choice">
+          <ul class="mobile-navigation__language-list">
+            <li class="mobile-navigation__language-list-item">
+              <img class="mobile-navigation__language-list-item-img" src="img/general/language/en.png"
+                alt="language-img-EN">
+            </li>
+            <li class="mobile-navigation__language-list-item">
+              <img class="mobile-navigation__language-list-item-img" src="img/general/language/de.png"
+                alt="language-img-DE">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mobile-navigation__search">
+        <div class="mobile-navigation__search-box">
+          <input class="mobile-navigation__search-input" type="text" placeholder="Wpisz czego szukasz...">
+          <div class="mobile-navigation__search-loupe"><i
+              class="mobile-navigation__search-loupe-icon fas fa-search"></i>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-navigation__menu mobile-navigation__menu--polish-version">
+        <ul class="mobile-navigation__list">
+          <li class="mobile-navigation__list-item"><a href="#">MOJE KONTO</a></li>
+          <div class="mobile-navigation__list-item-wrapper">
+            <li class="mobile-navigation__list-item mobile-navigation__list-item--border-top">GOTOWE ZESTAWY DO GRY</li>
+            <div class="mobile-navigation__list-item-icon"><i class="fas fa-angle-down"></i></div>
+          </div>
+          <ul class="mobile-navigation__second-level-list">
+            <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
+            <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
+            <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
+          </ul>
+          <div class="mobile-navigation__list-item-wrapper">
+            <li class="mobile-navigation__list-item mobile-navigation__list-item--border-top">SPRZĘT</li>
+            <div class="mobile-navigation__list-item-icon"><i class="fas fa-angle-down"></i></div>
+          </div>
+          <ul class="mobile-navigation__second-level-list">
+            <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
+            <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
+            <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
+          </ul>
+          <div class="mobile-navigation__list-item-wrapper">
+            <li class="mobile-navigation__list-item mobile-navigation__list-item--border-top">ODZIEŻ</li>
+            <div class="mobile-navigation__list-item-icon"><i class="fas fa-angle-down"></i></div>
+          </div>
+          <ul class="mobile-navigation__second-level-list">
+            <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
+            <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
+            <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
+          </ul>
+          <li class="mobile-navigation__list-item"><a href="#">KULKI</a></li>
+          <li class="mobile-navigation__list-item mobile-navigation__list-item--border-bottom"><a
+              href="#">WYPRZEDAŻE</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </div>
-
-  <nav class="mobile-navigation">
-    <div class="mobile-navigation__button-close">
-      <i class="mobile-navigation__button-close-icon fas fa-times"></i>
-    </div>
-    <div class="mobile-navigation__language">
-      <div class="mobile-navigation__language-current">
-        <img class="mobile-navigation__language-current-item-img" src="img/general/language/pl.png"
-          alt="language-img-PL">
-        <i class="mobile-navigation__language-current-arrow fas fa-angle-down"></i>
-      </div>
-      <div class="mobile-navigation__language-choice">
-        <ul class="mobile-navigation__language-list">
-          <li class="mobile-navigation__language-list-item">
-            <img class="mobile-navigation__language-list-item-img" src="img/general/language/en.png"
-              alt="language-img-EN">
-          </li>
-          <li class="mobile-navigation__language-list-item">
-            <img class="mobile-navigation__language-list-item-img" src="img/general/language/de.png"
-              alt="language-img-DE">
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="mobile-navigation__search">
-      <div class="mobile-navigation__search-box">
-        <input class="mobile-navigation__search-input" type="text" placeholder="Wpisz czego szukasz...">
-        <div class="mobile-navigation__search-loupe"><i class="mobile-navigation__search-loupe-icon fas fa-search"></i>
-        </div>
-      </div>
-    </div>
-    <div class="mobile-navigation__menu mobile-navigation__menu--polish-version">
-      <ul class="mobile-navigation__list">
-        <li class="mobile-navigation__list-item"><a href="#">MOJE KONTO</a></li>
-        <div class="mobile-navigation__list-item-wrapper">
-          <li class="mobile-navigation__list-item mobile-navigation__list-item--border-top">GOTOWE ZESTAWY DO GRY</li>
-          <div class="mobile-navigation__list-item-icon"><i class="fas fa-angle-down"></i></div>
-        </div>
-        <ul class="mobile-navigation__second-level-list">
-          <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-          <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-          <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-        </ul>
-        <div class="mobile-navigation__list-item-wrapper">
-          <li class="mobile-navigation__list-item mobile-navigation__list-item--border-top">SPRZĘT</li>
-          <div class="mobile-navigation__list-item-icon"><i class="fas fa-angle-down"></i></div>
-        </div>
-        <ul class="mobile-navigation__second-level-list">
-          <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-          <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-          <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-        </ul>
-        <div class="mobile-navigation__list-item-wrapper">
-          <li class="mobile-navigation__list-item mobile-navigation__list-item--border-top">ODZIEŻ</li>
-          <div class="mobile-navigation__list-item-icon"><i class="fas fa-angle-down"></i></div>
-        </div>
-        <ul class="mobile-navigation__second-level-list">
-          <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-          <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-          <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
-        </ul>
-        <li class="mobile-navigation__list-item"><a href="#">KULKI</a></li>
-        <li class="mobile-navigation__list-item mobile-navigation__list-item--border-bottom"><a href="#">WYPRZEDAŻE</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
   <main class="main-area">
 
@@ -279,6 +285,171 @@
         </div>
       </div>
     </section>
+
+    <section class="purchase-proposal">
+      <div class="purchase-proposal__container">
+        <div class="purchase-proposal__content">
+          <div class="section-title-wrapper">
+            <img src="img/general/arrow-section-title.png" alt="arrow-img">
+            <h1 class="section-title">DOBIERZ DO KOMPLETU</h1>
+          </div>
+          <div class="product-box">
+            <img class="product-box__product-img" src="img/purchase-proposal/product.png" alt="product-img">
+            <div class="product-box__product-text">
+              <p class="product-box__product-name">MASKA EMPIRE E-FLEX</p>
+              <p class="product-box__product-name-second-line">GOGGLE (BLACK)</p>
+              <p class="product-box__product-price">139,00 zł</p>
+            </div>
+          </div>
+          <div class="product-box">
+            <img class="product-box__product-img" src="img/purchase-proposal/product.png" alt="product-img">
+            <div class="product-box__product-text">
+              <p class="product-box__product-name">MASKA EMPIRE E-FLEX</p>
+              <p class="product-box__product-name-second-line">GOGGLE (BLACK)</p>
+              <p class="product-box__product-price">139,00 zł</p>
+            </div>
+          </div>
+          <div class="product-box">
+            <img class="product-box__product-img" src="img/purchase-proposal/product.png" alt="product-img">
+            <div class="product-box__product-text">
+              <p class="product-box__product-name">MASKA EMPIRE E-FLEX</p>
+              <p class="product-box__product-name-second-line">GOGGLE (BLACK)</p>
+              <p class="product-box__product-price">139,00 zł</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="detailed-product-description">
+      <div class="detailed-product-description__container">
+        <div class="detailed-product-description__content">
+          <div class="section-title-wrapper">
+            <img src="img/general/arrow-section-title.png" alt="arrow-img">
+            <h1 class="section-title">MARKER FIRMY TIPPMANN</h1>
+          </div>
+          <div class="detailed-product-description__text">
+            <div class="detailed-product-description__text-first-box">
+              <p>stworzony z myślą o młodszych graczach, poprzez zmiejszenie kalubru do 50Cal.</p>
+              <p>FT-50 Lite wygladem przypomina marker FT-12 , jednak rózni się on trochę od swojego pierwowzoru.</p>
+              <p>Marker jest trochę krótszy, korpus ma bardziej agresywny charakter, średnica zewnętrzna oraz wewnętrzna
+                lufy jest mniejsza oraz średnica otworu podającego kulki w magazynku grawitacyjnym jest dostosowana do
+                kalubru 50Cal.</p>
+            </div>
+            <div class="detailed-product-description__text-second-box">
+              <p>kompaktowy militarny wygląd</p>
+              <p>szybkie serwisowanie bez użycia narzędzi</p>
+              <p>aluminiowy chwyt i body</p>
+              <p>wewnętrzny system gazowy "inline bolt system"</p>
+              <p>modułowa konstrukcja</p>
+              <p>stałe przyrządy celownicze</p>
+              <p>zestaw zawiera magazynek grawitacyjny oraz barrel bag (osłona lufy)</p>
+            </div>
+          </div>
+          <h2 class="FAQ-title">NASI KLIENCI PYTALI O:</h2>
+          <div class="FAQ-no-dropdown">
+            <p class="FAQ-no-dropdown__question">
+              Czy ten pistolet jest idealny do gry w paintballa?
+            </p>
+            <p class="FAQ-no-dropdown__answer">
+              Zwane popularnie "długimi wiatrówkami" świetnie nadają się do precyzyjnego strzelania na dłuższe dystanse
+              (powyżej 15-20 metrów). Mają większą moc niż wiatrówki pistolety, dłuższą lufę i z tego też względu są
+              zdecydowanie bardziej celne. Wystrzeliwany z nich śrut ma również większe możliwości przebijania celu.
+            </p>
+          </div>
+          <div class="FAQ">
+            <div class="FAQ__container">
+              <div class="FAQ__content">
+                <div class="FAQ__box FAQ__box--top">
+                  <div class="FAQ__question">
+                    <p class="FAQ__question-text">Czy ten model posiada mechanizm spustowy ?</p>
+                    <i class="FAQ__question-arrow fas fa-angle-down"></i>
+                  </div>
+                  <div class="FAQ__answer">
+                    <p class="FAQ__answer-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut justo eleifend, tempus lorem et,
+                      facilisis nisi. Praesent et eros non nisl iaculis ultricies eget nec odio. Fusce nec efficitur
+                      elit,
+                      non ullamcorper libero. Quisque consequat sapien in lacus condimentum posuere.
+                    </p>
+                  </div>
+                </div>
+                <div class="FAQ__box">
+                  <div class="FAQ__question">
+                    <p class="FAQ__question-text">Jakie dobrać naboje do tego sprzętu?</p>
+                    <i class="FAQ__question-arrow fas fa-angle-down"></i>
+                  </div>
+                  <div class="FAQ__answer">
+                    <p class="FAQ__answer-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut justo eleifend, tempus lorem et,
+                      facilisis nisi. Praesent et eros non nisl iaculis ultricies eget nec odio. Fusce nec efficitur
+                      elit,
+                      non ullamcorper libero. Quisque consequat sapien in lacus condimentum posuere.
+                    </p>
+                  </div>
+                </div>
+                <div class="FAQ__box">
+                  <div class="FAQ__question">
+                    <p class="FAQ__question-text">Nie moge znależć instrukcji, czy mi ją doślecie?</p>
+                    <i class="FAQ__question-arrow fas fa-angle-down"></i>
+                  </div>
+                  <div class="FAQ__answer">
+                    <p class="FAQ__answer-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut justo eleifend, tempus lorem et,
+                      facilisis nisi. Praesent et eros non nisl iaculis ultricies eget nec odio. Fusce nec efficitur
+                      elit,
+                      non ullamcorper libero. Quisque consequat sapien in lacus condimentum posuere.
+                    </p>
+                  </div>
+                </div>
+                <div class="question-to-the-user">
+                  <h2 class="FAQ-title FAQ-title--position">NIE ZNALAZŁEŚ ODPOWIEDZI?</h2>
+                  <div class="question-to-the-user__ask-question">
+                    <p class="question-to-the-user__ask-question-text">ZADAJ SWOJE PYTANIE</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experts-advices">
+      <div class="experts-advices__container">
+        <div class="experts-advices__content">
+          <div class="section-title-wrapper">
+            <img src="img/general/arrow-section-title.png" alt="arrow-img">
+            <h1 class="section-title">PORADY NASZEGO EKSPERTA</h1>
+          </div>
+          <div class="experts-advices__first-box">
+            <p class="experts-advices__question">Jak stworzyć samemu farby do gry?</p>
+            <p class="experts-advices__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut justo
+              eleifend, tempus lorem et, facilisis nisi. Praesent et eros non nisl iaculis ultricies eget nec odio.
+              Fusce
+              nec efficitur elit, non ullamcorper libero. Quisque consequat sapien in lacus condimentum posuere.</p>
+          </div>
+          <div class="experts-advices__second-box">
+            <p class="experts-advices__question">Jak dobrać naboje z farbą do mojego sprzętu?</p>
+            <p class="experts-advices__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut justo
+              eleifend, tempus lorem et, facilisis nisi. Praesent et eros non nisl iaculis ultricies eget nec odio.
+              Fusce
+              nec efficitur elit, non ullamcorper libero. Quisque consequat sapien in lacus condimentum posuere.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__content">
+          <div class="footer__first-background"></div>
+          <div class="footer__second-background">
+            TEST
+          </div>
+        </div>
+      </div>
+    </footer>
 
   </main>
 

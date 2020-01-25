@@ -1,0 +1,62 @@
+.FAQ__box {
+  max-width: 880px;
+  margin: 5px auto 3px auto;
+  text-align: left;
+
+  .FAQ__question,
+  .FAQ__answer {
+    padding: 10px 12px 10px 12px;
+  }
+}
+
+.FAQ__box--top {
+  margin-top: 20px;
+}
+
+.FAQ__question {
+  
+  display: flex;
+  height: 69px;
+  background: #f5f5f5;
+  border: 1px solid #000;
+  cursor: pointer;
+
+  .FAQ__question-text {
+    margin-right: 10px;
+  }
+
+  .FAQ__question-arrow {
+    margin-left: auto;
+
+    font-size: 25px;
+  }
+}
+
+.FAQ__answer {
+  font-size: 15px;
+  background: rgb(245, 244, 244);
+  display: none;
+  cursor: pointer;
+}
+
+.question-to-the-user {
+  margin-top: 20px;
+
+  .FAQ-title--position {
+    text-align: center;
+  }
+}
+
+.question-to-the-user__ask-question {
+  font-size: 14px;
+  text-align: center;
+  margin: 15px auto 0 auto;
+  background: url('img/general/button-add-to-basket.png');
+  color: #fff;
+  height: 50px;
+  width: 240px;
+
+  .question-to-the-user__ask-question-text {
+    padding-top: 15px;
+  }
+}
