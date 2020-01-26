@@ -1,6 +1,7 @@
 .detailed-product-description__content {
+  max-width: 778px;
+  margin: 25px auto 0 auto;
   padding: 0 10px;
-  margin-top: 25px;
 }
 
 .detailed-product-description__text {
@@ -26,5 +27,6 @@
 }
 
 .FAQ-no-dropdown__answer {
+  max-width: 621px;
   font-size: 15px;
 }

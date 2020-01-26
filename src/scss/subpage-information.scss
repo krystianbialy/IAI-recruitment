@@ -1,0 +1,32 @@
+.subpage-information {
+  display: none;
+}
+
+@media(min-width: 940px) {
+  .subpage-information {
+    display: block;
+
+    .subpage-information__container {
+      background-color: #eaeaea;
+    }
+  }
+
+  .subpage-information__content {
+    height: 35px;
+    font-size: 11px;
+    background: url('img/header/dots.png');
+    display: flex;
+
+    .subpage-information-text {
+      margin: auto 10px auto 0;
+
+      .subpage-information-arrow {
+        margin-left: 8px;
+      }
+    }
+  }
+}
+
+.subpage-information-text--bold {
+  font-weight: bold;
+}

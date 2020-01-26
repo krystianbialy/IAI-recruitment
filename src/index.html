@@ -10,6 +10,28 @@
 
 <body>
 
+  <div class="header-contact">
+    <div class="header-contact__containr">
+      <div class="header-contact__content">
+        <div class="header-contact__phone header-contact-flex">
+          <img class="header-contact__phone-icon header-contact-icon" src="img/header-contact/phone.png"
+            alt="phone-icon">
+          <p class="header-contact__phone-text">Tel: +48 517 989 511</p>
+        </div>
+        <div class="header-contact__email header-contact-flex">
+          <img class="header-contact__email-icon header-contact-icon" src="img/header-contact/email.png"
+            alt="email-icon">
+          <p class="header-contact__email-text">E-mail: sklep@assassins-arms.com</p>
+        </div>
+        <div class="header-contact__facebook header-contact-flex">
+          <img class="header-contact__facebook-icon header-contact-icon" src="img/header-contact/facebook.png"
+            alt="facebook-icon">
+          <p class="header-contact__facebook-text">assasinarms</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="header-overlay">
     <header class="header grid">
       <div class="header__container grid__column">
@@ -17,27 +39,35 @@
           <div class="header-wrapper">
             <a class="header__logo" href="index.html"><img class="header__logo-img" src="img/header/logo.png"
                 alt="logo-img" /></a>
-            <!--
-          <div class="header__language">
-            <div class="header__language-current">
-              <p class="header__language-current-item-text">PL</p><img class="header__language-current-item-img"
-                src="img/general/language/pl.png" alt="language-img-PL">
-              <i class="header__language-current-arrow fas fa-angle-down"></i>
+            <div class="header__search-desktop-version">
+              <div class="header__search-desktop-version-box">
+                <input class="header__search-desktop-version-input" type="text" placeholder="Wpisz czego szukasz...">
+                <div class="header__search-desktop-version-loupe"><i
+                    class="header__search-desktopn-version-loupe-icon fas fa-search"></i></div>
+              </div>
             </div>
-            <div class="header__language-choice">
-              <ul class="header__language-list">
-                <li class="header__language-list-item">
-                  <p class="header__language-list-item-text">EN</p><img class="header__language-list-item-img"
-                    src="img/general/language/en.png" alt="language-img-EN">
-                </li>
-                <li class="header__language-list-item">
-                  <p class="header__language-list-item-text header__language-list-item-text--DE">DE</p><img
-                    class="header__language-list-item-img" src="img/general/language/de.png" alt="language-img-DE">
-                </li>
-              </ul>
+            <div class="header__language">
+              <div class="header__language-current">
+                <p class="header__language-current-item-text">PL</p><img class="header__language-current-item-img"
+                  src="img/general/language/pl.png" alt="language-img-PL">
+                <i class="header__language-current-arrow fas fa-angle-down"></i>
+              </div>
+              <div class="header__language-choice">
+                <ul class="header__language-list">
+                  <li class="header__language-list-item">
+                    <p class="header__language-list-item-text">EN</p><img class="header__language-list-item-img"
+                      src="img/general/language/en.png" alt="language-img-EN">
+                  </li>
+                  <li class="header__language-list-item">
+                    <p class="header__language-list-item-text header__language-list-item-text--DE">DE</p><img
+                      class="header__language-list-item-img" src="img/general/language/de.png" alt="language-img-DE">
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-          -->
+            <div class="header__account-desktop-version">
+              <a class="header__account-desktop-version-text" href="#">TWOJE KONTO</a>
+            </div>
             <div class="header__search-show">
               <i class="header__search-show-loupe-icon fas fa-search"></i>
             </div>
@@ -76,6 +106,16 @@
     </div>
   </nav>
 
+  <div class="subpage-information">
+    <div class="subpage-information__container">
+      <div class="subpage-information__content">
+        <p class="subpage-information-text">Strona główna <span class="subpage-information-arrow">>></span></p>
+        <p class="subpage-information-text">Sprzęt <span class="subpage-information-arrow">>></span></p>
+        <p class="subpage-information-text subpage-information-text--bold">Marker Tippman FT-50 lite</p>
+      </div>
+    </div>
+  </div>
+
   <div class="mobile-navigation-overlay">
     <nav class="mobile-navigation">
       <div class="mobile-navigation__button-close">
@@ -110,7 +150,9 @@
       </div>
       <div class="mobile-navigation__menu mobile-navigation__menu--polish-version">
         <ul class="mobile-navigation__list">
-          <li class="mobile-navigation__list-item"><a href="#">MOJE KONTO</a></li>
+          <li class="mobile-navigation__list-item mobile-navigation__list-item--color"><a href="#">MOJE KONTO</a></li>
+          <li class="mobile-navigation__list-item mobile-navigation__list-item--color"><a href="#">MOJE ZAMÓWIENIA</a>
+          </li>
           <div class="mobile-navigation__list-item-wrapper">
             <li class="mobile-navigation__list-item mobile-navigation__list-item--border-top">GOTOWE ZESTAWY DO GRY</li>
             <div class="mobile-navigation__list-item-icon"><i class="fas fa-angle-down"></i></div>
@@ -139,9 +181,11 @@
             <li class="mobile-navigation__second-level-list-item">LOREM IPSUM</li>
           </ul>
           <li class="mobile-navigation__list-item"><a href="#">KULKI</a></li>
-          <li class="mobile-navigation__list-item mobile-navigation__list-item--border-bottom"><a
-              href="#">WYPRZEDAŻE</a>
+          <li class="mobile-navigation__list-item"><a href="#">WYPRZEDAŻE</a>
           </li>
+          <li
+            class="mobile-navigation__list-item mobile-navigation__list-item--color mobile-navigation__list-item--border-bottom">
+            <a href="#">INFORMACJE</a></li>
         </ul>
       </div>
     </nav>
@@ -161,11 +205,6 @@
             <span class="slider__arrow"><i id="slider__left-arrow" class="fas fa-angle-left"></i></span>
             <span class="slider__arrow"><i id="slider__right-arrow" class="fas fa-angle-right"></i></span>
           </div>
-          <div class="slider__circles">
-            <span class="slider__circle slider__dot-circle"></span>
-            <span class="slider__circle"></span>
-            <span class="slider__circle"></span>
-          </div>
         </div>
       </div>
       <div class="promotion-element">
@@ -176,115 +215,133 @@
       </div>
     </section>
 
-    <section class="product-description">
-      <div class="product-description__container">
-        <div class="product-description__content">
-          <h1 class="product-name">MARKER TIPPMANN FT-50</h1>
-          <h2 class="product-speciication">LITE 50 CAL RENTAL (BLACK)</h2>
-          <h3 class="product-producer">PRODUCENT: <span class="product-producer__color">Dye</span> KOD PRODUKTU:
-            783479139183</h3>
-          <div class="product-choice-wrapper">
-            <div class="product-specification-select">
-              <div class="product-specification-select__name">
-                <p class="product-specification-select__name-text">KOLOR:</p>
-              </div>
-              <div class="product-specification-select__choice">
-                <p class="product-specification-select__choice-text">CZARNY</p>
-                <div class="product-specification-select__choice-icon"><i class="fas fa-angle-down"></i></div>
-              </div>
-              <div class="product-specification-select__list">
-                <p class="product-specification-select__list-item">CZARNY</p>
-                <p class="product-specification-select__list-item">CZERWONY</p>
-                <p class="product-specification-select__list-item">ZIELONY</p>
-                <p class="product-specification-select__list-item">NIEBIESKI</p>
-                <p class="product-specification-select__list-item">FIOLETOWY</p>
-              </div>
-              <div class="product-specification-select__name">
-                <p class="product-specification-select__name-text">DŁUGOŚĆ LUFY:</p>
-              </div>
-              <div class="product-specification-select__choice">
-                <p class="product-specification-select__choice-text">120cm</p>
-                <div class="product-specification-select__choice-icon"><i class="fas fa-angle-down"></i></div>
-              </div>
-              <div class="product-specification-select__list">
-                <p class="product-specification-select__list-item">120cm</p>
-                <p class="product-specification-select__list-item">100cm</p>
-                <p class="product-specification-select__list-item">60cm</p>
-                <p class="product-specification-select__list-item">50cm</p>
-                <p class="product-specification-select__list-item">30cm</p>
-              </div>
-              <div class="product-specification-select__name">
-                <p class="product-specification-select__name-text">KALIBER:</p>
-              </div>
-              <div class="product-specification-select__choice">
-                <p class="product-specification-select__choice-text">55NU</p>
-                <div class="product-specification-select__choice-icon"><i class="fas fa-angle-down"></i></div>
-              </div>
-              <div class="product-specification-select__list">
-                <p class="product-specification-select__list-item">55NU</p>
-                <p class="product-specification-select__list-item">50NU</p>
-                <p class="product-specification-select__list-item">45NU</p>
-                <p class="product-specification-select__list-item">40NU</p>
-                <p class="product-specification-select__list-item">30NU</p>
-              </div>
-            </div>
-            <div class="price-quantity-box">
-              <div class="product-price">
-                <p class="product-price__price"><strike>1499,00 zł</strike></p>
-                <p class="product-price__discount">1278,00 zł</p>
-              </div>
-              <div class="product-quantity">
-                <button class="product-quantity__minus" id="product-quantity__minus">-</button>
-                <input class="product-quantity__number" id="product-quantity__number" type="text" value="xxx"></input>
-                <button class="product-quantity__plus" id="product-quantity__plus">+</button>
-              </div>
-              <div class="add-to-basket">
-                <p class="add-to-basket__text">DODAJ DO KOSZYKA</p>
-              </div>
-            </div>
+    <div class="product-wrapper">
+      <section class="product-photo">
+        <div class="product-photo__container">
+          <div class="product-photo__content">
+            <img class="product-photo__img" src="img/slider/Tippmann-desktop.png" alt="product-img">
           </div>
-          <div class="buy-information-box">
-            <div class="buy-information">
-              <div class="buy-information__first-column">
-                <div class="buy-information__supply">
-                  <img class="buy-information__supply-img buy-information-img" src="./img/product-description/truck.png"
-                    alt="supply-img">
-                  <div class="buy-information__supply-text">
-                    <p class="buy-information-text-first-line">DARMOWA DOSTAWA</p>
-                    <p class="buy-information-text-second-line">dla zamówień powyżej 600zł</p>
+        </div>
+      </section>
+
+      <section class="product-description">
+        <div class="product-description__container">
+          <div class="product-description__content">
+            <h1 class="product-name">MARKER TIPPMANN FT-50</h1>
+            <h2 class="product-speciication">LITE 50 CAL RENTAL (BLACK)</h2>
+            <h3 class="product-producer">PRODUCENT: <span class="product-producer__color">Dye</span> KOD PRODUKTU:
+              783479139183</h3>
+            <div class="product-choice-wrapper">
+              <div class="product-specification-select">
+                <div class="product-specification-select__name">
+                  <p class="product-specification-select__name-text">KOLOR:</p>
+                </div>
+                <div class="color-choice-wrapper">
+                  <div class="product-specification-select__choice">
+                    <p class="product-specification-select__choice-text">CZARNY</p>
+                    <div class="product-specification-select__choice-icon"><i class="fas fa-angle-down"></i></div>
+                  </div>
+                  <div class="product-specification-select__list">
+                    <p class="product-specification-select__list-item">CZARNY</p>
+                    <p class="product-specification-select__list-item">CZERWONY</p>
+                    <p class="product-specification-select__list-item">ZIELONY</p>
+                    <p class="product-specification-select__list-item">NIEBIESKI</p>
+                    <p class="product-specification-select__list-item">FIOLETOWY</p>
                   </div>
                 </div>
-                <div class="buy-information__return">
-                  <img class="buy-information__return-img buy-information-img"
-                    src="./img/product-description/return.png" alt="return-img">
-                  <div class="buy-information__return-text">
-                    <p class="buy-information-text-first-line">ZWROT TOWARU</p>
-                    <p class="buy-information-text-second-line">do 14 dni od daty zakupu</p>
+                <div class="product-specification-flex">
+                  <div class="product-specification-block">
+                  <div class="product-specification-select__name">
+                    <p class="product-specification-select__name-text">DŁUGOŚĆ LUFY:</p>
                   </div>
+                  <div class="product-specification-select__choice">
+                    <p class="product-specification-select__choice-text">120cm</p>
+                    <div class="product-specification-select__choice-icon"><i class="fas fa-angle-down"></i></div>
+                  </div>
+                  <div class="product-specification-select__list">
+                    <p class="product-specification-select__list-item">120cm</p>
+                    <p class="product-specification-select__list-item">100cm</p>
+                    <p class="product-specification-select__list-item">60cm</p>
+                    <p class="product-specification-select__list-item">50cm</p>
+                    <p class="product-specification-select__list-item">30cm</p>
+                  </div>
+                </div>
+                <div class="product-specification-block">
+                  <div class="product-specification-select__name">
+                    <p class="product-specification-select__name-text">KALIBER:</p>
+                  </div>
+                  <div class="product-specification-select__choice">
+                    <p class="product-specification-select__choice-text">55NU</p>
+                    <div class="product-specification-select__choice-icon"><i class="fas fa-angle-down"></i></div>
+                  </div>
+                  <div class="product-specification-select__list">
+                    <p class="product-specification-select__list-item">55NU</p>
+                    <p class="product-specification-select__list-item">50NU</p>
+                    <p class="product-specification-select__list-item">45NU</p>
+                    <p class="product-specification-select__list-item">40NU</p>
+                    <p class="product-specification-select__list-item">30NU</p>
+                  </div>
+                </div>
                 </div>
               </div>
-              <div class="buy-information__second-column">
-                <div class="buy-information__installment">
-                  <img class="buy-information__installment-img buy-information-img"
-                    src="./img/product-description/percent.png" alt="percent-img">
-                  <div class="buy-information__installment-text">
-                    <p class="buy-information-text-first-line">ZAKUPY NA RATY</p>
-                    <p class="buy-information-text-second-line">OBLICZ RATĘ >></p>
+              <div class="price-quantity-box">
+                <div class="product-price">
+                  <p class="product-price__price"><strike>1499,00 zł</strike></p>
+                  <p class="product-price__discount">1278,00 zł</p>
+                </div>
+                <div class="product-quantity">
+                  <button class="product-quantity__minus" id="product-quantity__minus">-</button>
+                  <input class="product-quantity__number" id="product-quantity__number" type="text" value="xxx"></input>
+                  <button class="product-quantity__plus" id="product-quantity__plus">+</button>
+                </div>
+                <div class="add-to-basket">
+                  <p class="add-to-basket__text">DODAJ DO KOSZYKA</p>
+                </div>
+              </div>
+            </div>
+            <div class="buy-information-box">
+              <div class="buy-information">
+                <div class="buy-information__first-column">
+                  <div class="buy-information__supply">
+                    <img class="buy-information__supply-img buy-information-img"
+                      src="./img/product-description/truck.png" alt="supply-img">
+                    <div class="buy-information__supply-text">
+                      <p class="buy-information-text-first-line">DARMOWA DOSTAWA</p>
+                      <p class="buy-information-text-second-line">dla zamówień powyżej 600zł</p>
+                    </div>
+                  </div>
+                  <div class="buy-information__return">
+                    <img class="buy-information__return-img buy-information-img"
+                      src="./img/product-description/return.png" alt="return-img">
+                    <div class="buy-information__return-text">
+                      <p class="buy-information-text-first-line">ZWROT TOWARU</p>
+                      <p class="buy-information-text-second-line">do 14 dni od daty zakupu</p>
+                    </div>
                   </div>
                 </div>
-                <div class="buy-information__warranty">
-                  <img class="buy-information__warranty-img buy-information-img"
-                    src="./img/product-description/medal.png" alt="medal-img">
-                  <div class="buy-information__warranty-text">
-                    <p class="buy-information-text-first-line">GWARANCJA 12 MIESIĘCY</p>
+                <div class="buy-information__second-column">
+                  <div class="buy-information__installment">
+                    <img class="buy-information__installment-img buy-information-img"
+                      src="./img/product-description/percent.png" alt="percent-img">
+                    <div class="buy-information__installment-text">
+                      <p class="buy-information-text-first-line">ZAKUPY NA RATY</p>
+                      <p class="buy-information-text-second-line">OBLICZ RATĘ >></p>
+                    </div>
+                  </div>
+                  <div class="buy-information__warranty">
+                    <img class="buy-information__warranty-img buy-information-img"
+                      src="./img/product-description/medal.png" alt="medal-img">
+                    <div class="buy-information__warranty-text">
+                      <p class="buy-information-text-first-line">GWARANCJA 12 MIESIĘCY</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <section class="purchase-proposal">
       <div class="purchase-proposal__container">
@@ -439,19 +496,32 @@
         </div>
       </div>
     </section>
+  </main>
 
-    <footer class="footer">
-      <div class="footer__container">
-        <div class="footer__content">
-          <div class="footer__first-background"></div>
-          <div class="footer__second-background">
-            TEST
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__content">
+        <div class="footer__first-background"></div>
+        <div class="footer__second-background">
+          <div class="footer-second-bacground-content-wrapper">
+            <div class="footer__contact">
+              <h1 class="footer__title">KONTAKT</h1>
+              <p class="footer__contact__phone-number">+48 574 046 421</p class="footer__contact__text">
+              <p class="footer__contact__email">kontakt@assasinarmy.pl</p>
+            </div>
+            <div class="footer__social-media">
+              <img src="./img/footer/social-media/facebook-icon.png" alt="facebook-icon">
+              <img src="./img/footer/social-media/instagram-icon.png" alt="instagram-icon">
+            </div>
+            <div class="ido-sell-shop-icon">
+              <img src="./img/footer/IdoSellShop.png" alt="ido-sell-shop-icon">
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-
-  </main>
+    </div>
+    </div>
+  </footer>
 
 </body>
 

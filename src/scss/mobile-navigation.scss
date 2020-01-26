@@ -46,6 +46,7 @@
 }
 
 .mobile-navigation__language {
+  width: 52px;
   margin: 0 0 18px 20px;
 }
 
@@ -91,8 +92,8 @@
 }
 
 .mobile-navigation__search-input {
-  width: 250px;
-  height: 48px;
+  width: 285px;
+  height: 50px;
   padding: 1px 10px 1px 12px;
   border: 0;
 }
@@ -100,11 +101,11 @@
 .mobile-navigation__search-loupe {
   background: #fff;
   height: 50px;
-  width: 54px;
+  width: 50px;
   cursor: pointer;
 
   .mobile-navigation__search-loupe-icon {
-    padding: 17px 17px 17px 18px;
+    padding: 17px 17px 18px 18px;
     color: #000;
     font-size: 15px;
   }
@@ -145,6 +146,10 @@
   a {
     color: #fff;
   }
+}
+
+.mobile-navigation__list-item--color {
+  background: #5a5959;
 }
 
 .mobile-navigation__list-item--border-bottom {

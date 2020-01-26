@@ -1,0 +1,41 @@
+.header-contact {
+  display: none;
+}
+
+@media (min-width: 940px) {
+  .header-contact {
+    display: block;
+  }
+
+  .header-contact__content {
+    display: flex;
+    height: 39px;
+    font-size: 11px;
+    background: #2e2e2e;
+    color: #fff;
+
+    .header-contact-flex {
+      display: flex;
+      margin: auto 40px auto 0;
+    }
+  }
+
+  .header-contact__phone-icon {
+    width: 11px;
+    height: 11px;
+  }
+
+  .header-contact__email-icon {
+    width: 11px;
+    height: 8px;
+  }
+
+  .header-contact__facebook-icon {
+    width: 6px;
+    height: 11px;
+  }
+
+  .header-contact-icon {
+    margin: auto 8px auto 0;
+  }
+}
