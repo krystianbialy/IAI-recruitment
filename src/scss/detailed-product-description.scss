@@ -30,3 +30,15 @@
   max-width: 621px;
   font-size: 15px;
 }
+
+@media(min-width: 940px) {
+  .description-services-desktop-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 60px;
+  }
+
+  .detailed-product-description__content {
+    margin-top: 0;
+  }
+}

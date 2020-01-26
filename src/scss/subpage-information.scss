@@ -5,16 +5,13 @@
 @media(min-width: 940px) {
   .subpage-information {
     display: block;
-
-    .subpage-information__container {
-      background-color: #eaeaea;
-    }
+    background: url('img/header/dots.png');
+    background-color: #eaeaea;
   }
 
   .subpage-information__content {
     height: 35px;
     font-size: 11px;
-    background: url('img/header/dots.png');
     display: flex;
 
     .subpage-information-text {

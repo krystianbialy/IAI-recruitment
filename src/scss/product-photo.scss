@@ -3,6 +3,10 @@
 }
 
 @media(min-width: 940px) {
+  .product-photo {
+    margin: auto 0 auto 170px;
+  }
+
   .product-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

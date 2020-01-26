@@ -39,6 +39,9 @@ displayValue.onchange = () => {
   if (displayValue.value === '') {
     displayValue.value = 1;
   }
+  if (displayValue.value < 1) {
+    displayValue.value = 1;
+  }
 };
 
 $(document).ready(() => {

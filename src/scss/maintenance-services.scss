@@ -1,0 +1,87 @@
+.maintenance-services {
+  display: none;
+}
+
+@media(min-width: 940px) {
+  .maintenance-services {
+    display: block;
+    margin-left: auto;
+    width: 285px;
+  }
+
+  .maintenance-services__first-box {
+    width: 285px;
+    height: 140px;
+    background: url(img/maintenance-services/red-background.png);
+  }
+
+  .maintenance-services__first-box-text-box {
+    width: 168px;
+    height: 66px;
+    padding-top: 20px;
+    margin-left: 95px;
+  }
+
+  .maintenance-services__first-box-text {
+    color: #fff;
+  }
+
+  .maintenance-services__first-box-text--1 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .maintenance-services__first-box-text--2 {
+    font-size: 11px;
+  }
+
+  .maintenance-services__first-box-text--3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .maintenance-services__check {
+    width: 132px;
+    height: 25px;
+    border: 1px solid #fff;
+    margin: 25px 0 0 110px;
+
+    .maintenance-services__check-text {
+      font-size: 11px;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      padding-top: 3px;
+    }
+  }
+
+  .maintenance-services__img-man {
+    position: relative;
+    bottom: 99px;
+  }
+
+  .maintenance-services__second-box {
+    position: relative;
+    z-index: 2;
+    width: 283px;
+    height: 415px;
+    padding: 25px 0 0 25px;
+    background: #fff;
+  }
+
+  .maintenance-services__second-box-text-first {
+    font-size: 12px;
+  }
+
+  .maintenance-services__second-box-text-second {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .maintenance-services__img-stain {
+    position: relative;
+    bottom: 270px;
+    right: 80px;
+  }
+}
