@@ -1,3 +1,17 @@
+.footer__paintball-player-left-1,
+.footer__paintball-player-left-2,
+.footer__paintball-player-right-1,
+.footer__right-tyres,
+.footer__paintball-player-right-3 {
+  display: none;
+}
+
+.footer__paintball-player-right-2 {
+  position: absolute;
+  right: 3px;
+  bottom: 240px;
+}
+
 .footer__information,
 .footer__my-account,
 .footer__my-orders,
@@ -27,7 +41,7 @@
 
 .footer-second-bacground-content-wrapper {
   text-align: center;
-  padding: 110px 0 0 0;
+  padding: 120px 0 0 0;
   color: #fff;
 }
 
@@ -51,6 +65,14 @@
 }
 
 @media(min-width: 940px) {
+
+  .footer__paintball-player-left-1,
+  .footer__paintball-player-left-2,
+  .footer__paintball-player-right-1,
+  .footer__right-tyres,
+  .footer__paintball-player-right-3 {
+    display: block;
+  }
 
   .footer__information,
   .footer__my-account,
@@ -89,7 +111,7 @@
     position: absolute;
     right: 270px;
     bottom: 335px;
-    
+
   }
 
   .footer__right-tyres {
@@ -102,7 +124,7 @@
     position: absolute;
     right: 30px;
     bottom: 345px;
-    
+
   }
 
   .footer-second-bacground-content-wrapper {

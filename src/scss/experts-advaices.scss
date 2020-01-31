@@ -1,6 +1,6 @@
 .experts-advices__content {
   padding: 0 10px;
-  margin-top: 30px;
+  margin: 30px 0 40px 0;
 
   .experts-advices__first-box {
    margin-top: 4px;
@@ -9,10 +9,15 @@
 
 .experts-advices__question {
   margin: 12px 0;
+  font-weight: bold;
 }
 
 .experts-advices__answer-box img {
   display: none;
+}
+
+.experts-advices__answer {
+  font-size: 15px;
 }
 
 @media(min-width: 940px) {

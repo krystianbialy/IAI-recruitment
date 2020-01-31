@@ -165,6 +165,7 @@
       padding: 17px 17px 17px 18px;
       color: #fff;
       font-size: 15px;
+      cursor: pointer;
     }
   }
 
@@ -178,6 +179,7 @@
 
   .header__language-current {
     display: flex;
+    cursor: pointer;
 
     .header__language-current-item-text {
       font-size: 15px;
@@ -215,6 +217,7 @@
     width: auto;
     height: 13px;
     margin-top: 5px;
+    cursor: pointer;
   }
 
   .header__language-list-item-img--DE {

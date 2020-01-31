@@ -13,6 +13,7 @@
 
   .product-carousel__list-item {
     margin-top: 15px;
+    cursor: pointer;
 
     .product-carousel__list-item-box {
       width: 78px;
@@ -34,6 +35,7 @@
 
     i {
       padding: 5px;
+      cursor: pointer;
     }
   }
 
