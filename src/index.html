@@ -55,18 +55,29 @@
               <div class="header__language-choice">
                 <ul class="header__language-list">
                   <li class="header__language-list-item">
-                    <p class="header__language-list-item-text">EN</p><img class="header__language-list-item-img"
-                      src="img/general/language/en.png" alt="language-img-EN">
+                    <img class="header__language-list-item-img" src="img/general/language/en.png" alt="language-img-EN">
                   </li>
                   <li class="header__language-list-item">
-                    <p class="header__language-list-item-text header__language-list-item-text--DE">DE</p><img
-                      class="header__language-list-item-img" src="img/general/language/de.png" alt="language-img-DE">
+                    <img class="header__language-list-item-img header__language-list-item-img--DE"
+                      src="img/general/language/de.png" alt="language-img-DE">
                   </li>
                 </ul>
               </div>
             </div>
             <div class="header__account-desktop-version">
               <a class="header__account-desktop-version-text" href="#">TWOJE KONTO</a>
+            </div>
+            <div class="header__shopping-basket-desktop-version">
+              <img class="header__shopping-basket-desktop-version-background-img" src="img/header/shopping-basket.png"
+                alt="red-bacground-img">
+              <img class="header__shopping-basket-desktop-version-rank-img" src="img/header/rank.png" alt="rank-img">
+              <div class="header__shopping-basket-desktop-version-quantity">
+                <p class="header__shopping-basket-desktop-version-quantity-number">2</p>
+              </div>
+              <div class="header__shopping-basket-desktop-version-text">
+                <p class="header__shopping-basket-desktop-version-text-first">TWÓJ KOSZYK</p>
+                <p class="header__shopping-basket-desktop-version-text-second">3 454,00 zł</p>
+              </div>
             </div>
             <div class="header__search-show">
               <i class="header__search-show-loupe-icon fas fa-search"></i>
@@ -96,12 +107,17 @@
     </div>
   </div>
 
-  <nav class="navigation">
-    <div class="grid">
-      <div class="navigation__container grid__column">
-        <div class="navigation__menu navigation__menu--polish-version">
-          <ul class="navigation__list"></ul>
-        </div>
+  <nav class="navigation" id="startchange">
+    <div class="navigation__container grid">
+      <div class="navigation__menu navigation__menu--polish-version grid__column">
+        <ul class="navigation__list">
+          <li class="navigation__list-item"><a class="navigation__list-item-data" href="#">GOTOWE ZESTAWY DO GRY</a>
+          </li>
+          <li class="navigation__list-item"><a class="navigation__list-item-data" href="#">SPRZĘT</a></li>
+          <li class="navigation__list-item"><a class="navigation__list-item-data" href="#">ODZIEŻ</a></li>
+          <li class="navigation__list-item"><a class="navigation__list-item-data" href="#">KULKI</a></li>
+          <li class="navigation__list-item"><a class="navigation__list-item-data" href="#">WYPRZEDAŻE</a></li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -217,6 +233,51 @@
 
     <div class="grid">
       <div class="product-wrapper grid__column">
+        <section class="product-carousel">
+          <div class="product-carousel__container">
+            <div class="product-carousel__content">
+              <div class="product-carousel__arrow-top">
+                <i class="fas fa-chevron-up"></i>
+              </div>
+              <ul class="product-carousel__list">
+                <li class="product-carousel__list-item">
+                  <div class="product-carousel__list-item-box">
+                    <img class="product-carousel__img" src="img/product-carousel/Tippmann.png" alt="Tippmann-img">
+                  </div>
+                </li>
+                <li class="product-carousel__list-item">
+                  <div class="product-carousel__list-item-box">
+                    <img class="product-carousel__img" src="img/product-carousel/Tippmann.png" alt="Tippmann-img">
+                  </div>
+                </li>
+                <li class="product-carousel__list-item">
+                  <div class="product-carousel__list-item-box">
+                    <img class="product-carousel__img" src="img/product-carousel/Tippmann.png" alt="Tippmann-img">
+                  </div>
+                </li>
+                <li class="product-carousel__list-item">
+                  <div class="product-carousel__list-item-box">
+                    <img class="product-carousel__img" src="img/product-carousel/Tippmann.png" alt="Tippmann-img">
+                  </div>
+                </li>
+                <li class="product-carousel__list-item">
+                  <div class="product-carousel__list-item-box">
+                    <img class="product-carousel__img" src="img/product-carousel/Tippmann.png" alt="Tippmann-img">
+                  </div>
+                </li>
+                <li class="product-carousel__list-item">
+                  <div class="product-carousel__list-item-box">
+                    <img class="product-carousel__img" src="img/product-carousel/Tippmann.png" alt="Tippmann-img">
+                  </div>
+                </li>
+              </ul>
+              <div class="product-carousel__arrow-bottom">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section class="product-photo">
           <div class="product-photo__container">
             <div class="product-photo__content">
@@ -456,7 +517,7 @@
                 <div class="detailed-product-description__text">
                   <div class="detailed-product-description__text-first-box">
                     <p>stworzony z myślą o młodszych graczach, poprzez zmiejszenie kalubru do 50Cal.</p>
-                    <p>FT-50 Lite wygladem przypomina marker FT-12 , jednak rózni się on trochę od swojego pierwowzoru.
+                    <p>FT-50 Lite wygladem przypomina marker FT-12 ,jednak rózni się on trochę od swojego pierwowzoru.
                     </p>
                     <p>Marker jest trochę krótszy, korpus ma bardziej agresywny charakter, średnica zewnętrzna oraz
                       wewnętrzna
@@ -542,10 +603,10 @@
                           </p>
                         </div>
                       </div>
-                      <div class="question-to-the-user">
+                      <div class="question-from-the-user">
                         <h2 class="FAQ-title FAQ-title--position">NIE ZNALAZŁEŚ ODPOWIEDZI?</h2>
-                        <div class="question-to-the-user__ask-question">
-                          <p class="question-to-the-user__ask-question-text">ZADAJ SWOJE PYTANIE</p>
+                        <div class="question-from-the-user__ask-question">
+                          <p class="question-from-the-user__ask-question-text">ZADAJ SWOJE PYTANIE</p>
                         </div>
                       </div>
                     </div>
@@ -614,19 +675,29 @@
             <img src="img/general/arrow-section-title.png" alt="arrow-img">
             <h1 class="section-title">PORADY NASZEGO EKSPERTA</h1>
           </div>
-          <div class="experts-advices__first-box">
-            <p class="experts-advices__question">Jak stworzyć samemu farby do gry?</p>
-            <p class="experts-advices__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut justo
-              eleifend, tempus lorem et, facilisis nisi. Praesent et eros non nisl iaculis ultricies eget nec odio.
-              Fusce
-              nec efficitur elit, non ullamcorper libero. Quisque consequat sapien in lacus condimentum posuere.</p>
-          </div>
-          <div class="experts-advices__second-box">
-            <p class="experts-advices__question">Jak dobrać naboje z farbą do mojego sprzętu?</p>
-            <p class="experts-advices__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut justo
-              eleifend, tempus lorem et, facilisis nisi. Praesent et eros non nisl iaculis ultricies eget nec odio.
-              Fusce
-              nec efficitur elit, non ullamcorper libero. Quisque consequat sapien in lacus condimentum posuere.</p>
+          <div class="experts-advices__all-box-grid">
+            <div class="experts-advices__first-box">
+              <p class="experts-advices__question">Jak stworzyć samemu farby do gry?</p>
+              <div class="experts-advices__answer-box">
+                <img src="img/experts-advices/paintball-player-1.png" alt="paintball-player-img">
+                <p class="experts-advices__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut
+                  justo
+                  eleifend, tempus lorem et, facilisis nisi. Praesent et eros non nisl iaculis ultricies eget nec odio.
+                  Fusce
+                  nec efficitur elit, non ullamcorper libero. Quisque consequat sapien in lacus condimentum posuere.</p>
+              </div>
+            </div>
+            <div class="experts-advices__second-box">
+              <p class="experts-advices__question">Jak dobrać naboje z farbą do mojego sprzętu?</p>
+              <div class="experts-advices__answer-box">
+                <img src="img/experts-advices/paintball-player-2.png" alt="paintball-player-img">
+                <p class="experts-advices__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut
+                  justo
+                  eleifend, tempus lorem et, facilisis nisi. Praesent et eros non nisl iaculis ultricies eget nec odio.
+                  Fusce
+                  nec efficitur elit, non ullamcorper libero. Quisque consequat sapien in lacus condimentum posuere.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -638,17 +709,75 @@
       <div class="footer__content">
         <div class="footer__first-background"></div>
         <div class="footer__second-background grid">
+          <img class="footer__paintball-player-left-1" src="img/footer/paintball-players/paintball-player-left-1.png"
+            alt="paintball-player-img">
+          <img class="footer__paintball-player-left-2" src="img/footer/paintball-players/paintball-player-left-2.png"
+            alt="paintball-player-img">
+          <img class="footer__paintball-player-right-1" src="img/footer/paintball-players/paintball-player-right-1.png"
+            alt="paintball-player-img">
+            <img class="footer__paintball-player-right-2" src="img/footer/paintball-players/paintball-player-right-2.png"
+            alt="paintball-player-img">
+            <img class="footer__right-tyres" src="img/footer/paintball-players/right-tyres.png"
+            alt="right-tyres-img">
+            <img class="footer__paintball-player-right-3" src="img/footer/paintball-players/paintball-player-right-3.png"
+            alt="paintball-player-img">
           <div class="footer-second-bacground-content-wrapper grid__column">
-            <div class="footer__contact">
-              <h1 class="footer__title">KONTAKT</h1>
-              <p class="footer__contact__phone-number">+48 574 046 421</p class="footer__contact__text">
-              <p class="footer__contact__email">kontakt@assasinarmy.pl</p>
-            </div>
-            <div class="footer__social-media">
-              <img src="./img/footer/social-media/facebook-icon.png" alt="facebook-icon">
-              <img src="./img/footer/social-media/instagram-icon.png" alt="instagram-icon">
+            <div class="footer-text-grid">
+              <div class="footer__information">
+                <h1 class="footer__title">INFORMACJE</h1>
+                <p>Informacje o sklepie</p>
+                <p>Wysyłka</p>
+                <p>Regulamin</p>
+                <p>Polityka prywatności</p>
+                <p>Odstąpienie od umowy</p>
+              </div>
+              <div class="footer__my-account">
+                <h1 class="footer__title">MOJE KONTO</h1>
+                <p>Zarejestruj się</p>
+                <p>Moje zamówienia</p>
+                <p>Koszyk</p>
+                <p>Ulubione</p>
+                <p>Historia transakcji</p>
+              </div>
+              <div class="footer__contact">
+                <h1 class="footer__title">KONTAKT</h1>
+                <p class="footer__contact__phone-number">+48 574 046 421</p>
+                <p class="footer__contact__email">kontakt@assasinarmy.pl</p>
+                <div class="footer__social-media">
+                  <img class="footer__social-media-facebok" src="./img/footer/social-media/facebook-icon.png"
+                    alt="facebook-icon">
+                  <img class="footer__social-media-instagram" src="./img/footer/social-media/instagram-icon.png"
+                    alt="instagram-icon">
+                </div>
+              </div>
+              <div class="footer__my-orders">
+                <h1 class="footer__title">MOJE ZAMÓWIENIA</h1>
+                <div class="footer__my-orders-text-box">
+                  <img src="img/footer/my-orders/truck.png" alt="truck-icon">
+                  <p>Sprawdź status zamówienia</p>
+                </div>
+                <div class="footer__my-orders-text-box">
+                  <img src="img/footer/my-orders/loupe.png" alt="-icon">
+                  <p>Śledź przesyłkę</p>
+                </div>
+                <div class="footer__my-orders-text-box">
+                  <img src="img/footer/my-orders/thumb-down.png" alt="-icon">
+                  <p>Reklamacje</p>
+                </div>
+                <div class="footer__my-orders-text-box">
+                  <img src="img/footer/my-orders/arrow.png" alt="-icon">
+                  <p>Zwroty</p>
+                </div>
+                <div class="footer__my-orders-text-box">
+                  <img src="img/footer/my-orders/information.png" alt="-icon">
+                  <p>Informacje o wymianie</p>
+                </div>
+              </div>
             </div>
             <div class="ido-sell-shop-icon">
+              <img src="./img/footer/IdoSellShop.png" alt="ido-sell-shop-icon">
+            </div>
+            <div class="ido-sell-shop-icon-desktop-version">
               <img src="./img/footer/IdoSellShop.png" alt="ido-sell-shop-icon">
             </div>
           </div>

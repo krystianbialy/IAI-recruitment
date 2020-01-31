@@ -10,3 +10,46 @@
 .experts-advices__question {
   margin: 12px 0;
 }
+
+.experts-advices__answer-box img {
+  display: none;
+}
+
+@media(min-width: 940px) {
+
+  .experts-advices__content {
+    margin-bottom: 130px;
+  }
+
+  .experts-advices__all-box-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    margin-top: 18px;
+  }
+
+  .experts-advices__second-box {
+    margin-left: auto;
+  }
+
+  .experts-advices__question {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+
+  .experts-advices__answer-box img {
+    display: block;
+  }
+
+  .experts-advices__answer-box {
+    display: flex;
+
+    .experts-advices__answer {
+      max-width: 330px;
+      font-size: 13px;
+      padding: 23px 0 0 24px;
+    }
+  }
+}

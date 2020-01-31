@@ -40,6 +40,10 @@
   display: none;
 }
 
+.header__shopping-basket-desktop-version {
+  display: none;
+}
+
 .header__search-show-loupe-icon,
 .header__account-icon,
 .header__shopping-basket-icon {
@@ -117,11 +121,15 @@
   }
 
   .header__container {
-    height: 110px;
+    height: 93px;
 
     .header__content {
       padding: 0;
     }
+  }
+
+  .header__logo {
+    margin-left: 0;
   }
 
   .header__logo-img {
@@ -171,8 +179,13 @@
   .header__language-current {
     display: flex;
 
+    .header__language-current-item-text {
+      font-size: 15px;
+      margin-top: 2px;
+    }
+
     .header__language-current-arrow {
-      margin: 3px 0 0 5px;
+      margin: 4px 0 0 5px;
     }
   }
 
@@ -181,15 +194,14 @@
 
     .header__language-list {
       list-style: none;
+      display: flex;
+      position: absolute;
+      margin-left: 18px;
     }
   }
 
   .header__language-list-item {
     display: flex;
-
-    .header__language-list-item-text--DE {
-      margin-right: 1.3px;
-    }
   }
 
   .header__language-current-item-img,
@@ -197,6 +209,17 @@
     width: 25px;
     height: 100%;
     margin: 3px 5px 0 7px;
+  }
+
+  .header__language-list-item-img {
+    width: auto;
+    height: 13px;
+    margin-top: 5px;
+  }
+
+  .header__language-list-item-img--DE {
+    width: auto;
+    height: 14.4px;
   }
 
   .header__account-desktop-version {
@@ -210,5 +233,59 @@
       color: #000;
     }
 
+  }
+
+  .header__shopping-basket-desktop-version {
+    display: block;
+  }
+
+  .header__shopping-basket-desktop-version-background-img {
+    position: absolute;
+    top: 0;
+    margin-left: 27px;
+    z-index: 2;
+  }
+
+  .header__shopping-basket-desktop-version-rank-img {
+    position: relative;
+    margin: 28px 0 0 42px;
+    z-index: 3;
+  }
+
+  .header__shopping-basket-desktop-version-quantity {
+    background: #fff;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    z-index: 4;
+    top: 57px;
+    margin-left: 68px;
+    color: #b62323;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 50%;
+  
+    .header__shopping-basket-desktop-version-quantity-number {
+      margin: 2.4px 0 0 5.8px;
+    }
+  }
+
+  .header__shopping-basket-desktop-version-text {
+    position: absolute;
+    top: 74px;
+    margin-left: 86px;
+    z-index: 2;
+    color: #fff;
+    line-height: 1.2;
+
+    .header__shopping-basket-desktop-version-text-first {
+      font-size: 11px;
+      font-weight: bold;
+    }
+
+    .header__shopping-basket-desktop-version-text-second {
+      font-weight: bold;
+      font-size: 17px;
+    }
   }
 }

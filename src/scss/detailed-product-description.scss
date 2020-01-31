@@ -33,6 +33,10 @@
 
 @media(min-width: 940px) {
   .description-services-desktop-grid {
+    height: 900px;
+  }
+
+  .description-services-desktop-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 60px;
@@ -40,5 +44,29 @@
 
   .detailed-product-description__content {
     margin-top: 0;
+    max-width: none;
+    width: 810px;
+  }
+
+  .detailed-product-description__text {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .FAQ-title {
+    margin: 30px 0 0 0;
+  }
+
+  .FAQ-no-dropdown {
+    margin: 10px 0 12px 0;
+  }
+
+  .FAQ-no-dropdown__question {
+    font-size: 14px;
+  }
+
+  .FAQ-no-dropdown__answer {
+    max-width: 650px;
+    font-size: 13px;
   }
 }

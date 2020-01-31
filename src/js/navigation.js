@@ -1,7 +1,16 @@
-$('.navigation__menu--polish-version .navigation__list').append(
-  '<li class="navigation__list-item"><a class="navigation__list-item-data" href="#">GOTOWE ZESTAWY DO GRY</a></li>',
-  '<li class="navigation__list-item"><a class="navigation__list-item-data" href="#">SPRZĘT</a></li>',
-  '<li class="navigation__list-item"><a class="navigation__list-item-data" href="#">ODZIEŻ</a></li>',
-  '<li class="navigation__list-item"><a class="navigation__list-item-data" href="#">KULKI</a></li>',
-  '<li class="navigation__list-item"><a class="navigation__list-item-data" href="#">WYPRZEDAŻE</a></li>'
-);
+$(document).ready(() => {
+  console.log('work?');
+  var scroll_start = 0;
+  var startchange = $('#startchange');
+  var offset = startchange.offset();
+  if (startchange.length){
+      $(document).scroll(function() { 
+          scroll_start = $(document).scrollTop();
+          if(scroll_start > offset.top) {
+              $(".navigation").css('background-color', '#f0f0f0');
+          } else {
+              $('.navigation').css('background-color', '#000');
+          }
+      });
+  }
+});

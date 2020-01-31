@@ -1,3 +1,10 @@
+.footer__information,
+.footer__my-account,
+.footer__my-orders,
+.ido-sell-shop-icon-desktop-version {
+  display: none;
+}
+
 .footer__content {
   position: relative;
   margin-top: 5px;
@@ -36,15 +43,107 @@
 
 .footer__social-media {
   margin: 15px 0 25px 0;
+
+  .footer__social-media-facebok {
+    margin-right: 20px;
+  }
+
 }
 
 @media(min-width: 940px) {
+
+  .footer__information,
+  .footer__my-account,
+  .footer__my-orders,
+  .ido-sell-shop-icon-desktop-version {
+    display: block;
+  }
+
   .footer__first-background {
-    height: 669px;
+    height: 520px;
     bottom: 10px;
   }
 
   .footer__second-background {
     height: 438px;
+  }
+
+  .footer__paintball-player-left-1 {
+    position: absolute;
+    left: 20px;
+    bottom: 330px;
+  }
+
+  .footer__paintball-player-left-2 {
+    position: absolute;
+    left: 95px;
+    bottom: 340px;
+  }
+
+  .footer__paintball-player-right-1 {
+    position: absolute;
+    right: 460px;
+  }
+
+  .footer__paintball-player-right-2 {
+    position: absolute;
+    right: 270px;
+    bottom: 335px;
+    
+  }
+
+  .footer__right-tyres {
+    position: absolute;
+    right: 158px;
+    bottom: 370px;
+  }
+
+  .footer__paintball-player-right-3 {
+    position: absolute;
+    right: 30px;
+    bottom: 345px;
+    
+  }
+
+  .footer-second-bacground-content-wrapper {
+    padding-top: 180px;
+  }
+
+  .footer-text-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: left;
+  }
+
+  .footer__title {
+    font-size: 14px;
+    color: rgb(226, 222, 222);
+  }
+
+  .footer__my-orders-text-box {
+    display: flex;
+
+    img {
+      width: auto;
+      height: 100%;
+      margin: 3px 10px 0 0;
+    }
+  }
+
+  .footer__information p,
+  .footer__my-account p,
+  .footer__my-orders p {
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: #a0a0a0;
+  }
+
+  .ido-sell-shop-icon {
+    display: none;
+  }
+
+  .ido-sell-shop-icon-desktop-version {
+    margin-top: 40px;
+    text-align: center;
   }
 }
